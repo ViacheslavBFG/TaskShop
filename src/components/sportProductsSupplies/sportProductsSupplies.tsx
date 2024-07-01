@@ -1,8 +1,9 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { Card, Col, Row, Modal } from "antd";
+import { Card, Col, Row, Modal, Button } from "antd";
 import productsBase from "@/components/productsBase.json";
 import productsBaseModal from "@/components/productsBaseModal.json";
+import Searching from "../searching/searching";
 
 const { Meta } = Card;
 
@@ -14,6 +15,7 @@ interface Product {
 }
 
 interface ModalProduct {
+  price: number;
   id: number;
   title: string;
   description: string;
@@ -48,6 +50,7 @@ const SportProductsSupplies = () => {
 
   return (
     <>
+      <Searching />
       <div className="container mx-auto p-4">
         <Row gutter={[16, 16]}>
           {products.map((product) => (
@@ -75,14 +78,31 @@ const SportProductsSupplies = () => {
             visible={isModalVisible}
             onOk={handleOk}
             onCancel={handleCancel}
-            footer={null}
+            footer={[
+              <Button key="cancel" onClick={handleCancel}>
+                Cancel
+              </Button>,
+              <Button
+                className=" w-48"
+                key="buy"
+                type="primary"
+                onClick={handleCancel}
+              >
+                Buy
+              </Button>,
+            ]}
           >
             <img
               src={modalData.image}
               alt={modalData.title}
               className="w-24 h-54 object-cover float-left mb-4 "
             />
-            <p>{modalData.details}</p>
+            <p className=" font-semibold">{modalData.description}</p>
+            <p>
+              <span className=" font-semibold">Description: </span>{" "}
+              {modalData.details}
+            </p>
+            <p className="font-semibold text-lg ">Price: {modalData.price}</p>
           </Modal>
         )}
       </div>

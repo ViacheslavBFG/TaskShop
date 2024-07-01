@@ -23,10 +23,7 @@ const Header = () => {
             </Link>
           </div>
         </div>
-        <div className="flex items-center gap-2">
-          <Input placeholder="Basic usage" />
-          <Button>search</Button>
-        </div>
+      
       </div>
     </>
   );
