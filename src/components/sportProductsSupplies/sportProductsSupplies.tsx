@@ -102,7 +102,9 @@ const SportProductsSupplies = () => {
               <span className=" font-semibold">Description: </span>{" "}
               {modalData.details}
             </p>
-            <p className="font-semibold text-lg ">Price: {modalData.price}$</p>
+            <p className=" mt-2 border-2 w-fit p-2 rounded-md border-blue-500 font-semibold text-lg ">
+              Price: {modalData.price}$
+            </p>
           </Modal>
         )}
       </div>

@@ -78,5 +78,53 @@
     "image": "/images/10.jpg",
     "details": "Whey Mutant offers a high-protein formula with a gourmet taste. Each serving provides 25 grams of protein from whey protein isolate, promoting muscle growth and recovery. It's ideal for athletes and fitness enthusiasts looking for a premium protein source. Also includes digestive enzymes to improve protein absorption and minimize bloating. Use one scoop mixed with 6-8 ounces of water or milk, especially post-workout or between meals.",
     "price": 45
+  },
+  {
+    "id": 11,
+    "title": "RULE 1",
+    "description": "R1 WHEY BLEND",
+    "image": "/images/11.jpg",
+    "details": "R1 Whey Blend is a premium protein supplement that combines whey protein isolate and concentrate. It provides 24 grams of protein per serving, supporting muscle recovery and growth. Ideal for athletes and fitness enthusiasts looking to increase protein intake and improve muscle repair. Contains essential amino acids and is low in fats and carbohydrates. Mix one scoop with 6-8 ounces of water or milk post-workout or as a protein-rich snack.",
+    "price": 30
+  },
+  {
+    "id": 12,
+    "title": "RULE 1",
+    "description": "R1 CASEIN",
+    "image": "/images/12.jpg",
+    "details": "R1 Casein is a slow-digesting protein powder that releases amino acids over several hours, ideal for overnight muscle recovery and growth. Contains 25 grams of micellar casein per serving, enriched with essential amino acids. Helps prevent muscle breakdown during prolonged periods without protein intake, such as overnight. Mix one scoop with 8-10 ounces of water or milk before bed.",
+    "price": 32
+  },
+  {
+    "id": 13,
+    "title": "RULE 1",
+    "description": "R1 PROTEIN",
+    "image": "/images/13.jpg",
+    "details": "R1 Protein is a fast-absorbing whey protein isolate and hydrolysate blend, delivering 25 grams of protein per serving. Designed for rapid muscle recovery and growth post-workout. Contains minimal fats and carbohydrates, making it suitable for those watching their caloric intake. Enhances protein synthesis and supports lean muscle development. Mix one scoop with 6-8 ounces of water or milk.",
+    "price": 34
+  },
+  {
+    "id": 14,
+    "title": "BioTechUSA",
+    "description": "PROTEIN DRINK POWDER WITH GLUTAMINE",
+    "image": "/images/14.jpg",
+    "details": "BioTechUSA Protein Drink Powder with Glutamine is a versatile protein blend suitable for muscle recovery and immune support. Contains a mix of fast and slow-digesting proteins, including whey and casein. Enriched with glutamine for enhanced recovery and immune function. Ideal for post-workout recovery or as a protein-rich snack. Mix one scoop with 6-8 ounces of water or milk.",
+    "price": 36
+  },
+  {
+    "id": 15,
+    "title": "Nutrend",
+    "description": "NUTREND MICELLAR CASEIN",
+    "image": "/images/15.jpg",
+    "details": "Nutrend Micellar Casein is a slow-release protein powder that supports prolonged muscle recovery and growth. Provides 24 grams of micellar casein per serving, enriched with essential amino acids. Ideal for preventing muscle breakdown during extended periods without protein intake, such as overnight. Promotes sustained protein synthesis and muscle repair. Mix one scoop with 8-10 ounces of water or milk before bedtime.",
+    "price": 38
+  },
+  {
+    "id": 16,
+    "title": "BioTechUSA",
+    "description": "HYPER MASS",
+    "image": "/images/16.jpg",
+    "details": "BioTechUSA Hyper Mass is a high-calorie mass gainer formulated to support weight gain and muscle mass development. Contains a blend of carbohydrates, proteins, and essential vitamins for energy and recovery. Ideal for athletes and individuals with high caloric needs. Enhances muscle growth and supports recovery after intense workouts. Mix one serving with 16 ounces of water or milk post-workout or as a calorie-dense meal replacement.",
+    "price": 40
   }
 ]
