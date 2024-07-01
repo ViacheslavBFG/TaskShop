@@ -5,7 +5,7 @@
     "description": "Multivitamin for active men",
     "image": "/images/1.jpg",
     "details": "Opti-Men provides a wide array of essential vitamins and minerals crucial for overall health and well-being. These include vitamins A, C, D, E, K, and B-complex vitamins, along with important minerals like zinc, magnesium, and selenium. Designed to meet the nutritional needs of active men, it supports energy metabolism, immune function, and muscle health. Contains antioxidants to fight oxidative stress and B-vitamins to enhance energy production. Recommended to take 3 tablets daily with meals.",
-    "price": "20$"
+    "price": 20
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "description": "Multivitamin for active women",
     "image": "/images/2.jpg",
     "details": "Opti-Women offers a comprehensive blend of essential vitamins and minerals for women’s health, including vitamins A, C, D, E, K, and B-complex vitamins. It also contains minerals like iron, calcium, magnesium, and zinc. Formulated to support bone health, hormonal balance, and energy levels. Includes antioxidants for skin health and nutrients for hair and nails. Recommended dosage is 2 capsules daily with food.",
-    "price": "22$"
+    "price": 22
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "description": "Vitamin & mineral supplement for active adults",
     "image": "/images/3.jpg",
     "details": "ZMA combines zinc, magnesium, and vitamin B6 to support immune function, muscle recovery, and sleep quality. Zinc promotes a healthy immune system and is essential for protein synthesis and cellular health. Magnesium plays a key role in muscle and nerve function, while vitamin B6 is involved in energy metabolism. This supplement is ideal for athletes and active individuals to improve recovery and enhance performance. Take 3 capsules before bed for best results.",
-    "price": "18$"
+    "price": 18
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "description": "Advanced performance multivitamin for beauty and health",
     "image": "/images/4.jpg",
     "details": "Vita-Women provides a comprehensive range of essential vitamins and minerals that promote overall wellness and beauty. It includes vitamins A, C, D, E, K, and B-complex vitamins, along with iron and calcium. This formula supports skin elasticity, bone density, and hormonal balance. It also includes biotin for hair health and antioxidants to protect against aging. Recommended dosage is 2 tablets daily with meals.",
-    "price": "25$"
+    "price": 25
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "description": "Vitamin-mineral drink for joint health and mobility",
     "image": "/images/5.jpg",
     "details": "Max-Motion is designed to support joint health and enhance mobility. It contains glucosamine, chondroitin, and MSM, which are essential for cartilage health and joint lubrication. This drink also includes antioxidants like vitamin C and E to protect cells from damage. Ideal for those with active lifestyles or joint discomfort. Mix one scoop with 8-10 ounces of water daily for optimal results.",
-    "price": "28$"
+    "price": 28
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "description": "High-quality pure whey protein",
     "image": "/images/6.jpg",
     "details": "Golden-Whey is a top-quality whey protein supplement that provides a complete amino acid profile for muscle growth and recovery. It's rapidly absorbed, making it ideal for post-workout nutrition. Contains 24 grams of protein per serving with minimal fats and carbohydrates. Supports lean muscle mass, enhances recovery, and boosts overall protein intake. Mix one scoop with 6-8 ounces of water or milk immediately after exercise.",
-    "price": "35$"
+    "price": 35
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "description": "Premium whey protein for muscle support",
     "image": "/images/7.jpg",
     "details": "Gold-Standard Whey is known for its purity and effectiveness in supporting muscle growth and recovery. Each serving delivers 24 grams of protein, essential for muscle repair and strength. It's quickly digestible, making it perfect for post-workout shakes or protein snacks. Also includes digestive enzymes to enhance absorption. Use 1-2 scoops mixed with water or milk, depending on protein needs.",
-    "price": "38$"
+    "price": 38
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "description": "Ultra-premium protein matrix",
     "image": "/images/8.jpg",
     "details": "Syntha-6 combines multiple protein sources to deliver a sustained release of amino acids, perfect for muscle recovery and growth. Includes whey protein isolate, whey protein concentrate, and micellar casein. Also enriched with essential fatty acids and fiber to support overall nutrition. Provides 22 grams of protein per serving with a delicious taste. Ideal for use any time of day, especially as a meal replacement or after workouts. Mix one scoop with 4-5 ounces of water or milk.",
-    "price": "40$"
+    "price": 40
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "description": "Protein powder drink mix for overnight recovery",
     "image": "/images/9.jpg",
     "details": "Gold-Standard Casein is a slow-digesting protein that provides a steady stream of amino acids over several hours, making it perfect for nighttime use. Contains 24 grams of protein per serving, derived from high-quality micellar casein. Helps prevent muscle breakdown while sleeping and supports recovery. Mix one scoop with 8-10 ounces of water or milk before bed.",
-    "price": "42$"
+    "price": 42
   },
   {
     "id": 10,
@@ -77,6 +77,6 @@
     "description": "Gourmet whey protein isolate shake",
     "image": "/images/10.jpg",
     "details": "Whey Mutant offers a high-protein formula with a gourmet taste. Each serving provides 25 grams of protein from whey protein isolate, promoting muscle growth and recovery. It's ideal for athletes and fitness enthusiasts looking for a premium protein source. Also includes digestive enzymes to improve protein absorption and minimize bloating. Use one scoop mixed with 6-8 ounces of water or milk, especially post-workout or between meals.",
-    "price": "45$"
+    "price": 45
   }
 ]
