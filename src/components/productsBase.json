@@ -3,96 +3,112 @@
     "id": 1,
     "title": "OPTI-MEN",
     "description": "Multivitamin for active men",
-    "image": "/images/1.jpg"
+    "image": "/images/1.jpg",
+    "price": 20
   },
   {
     "id": 2,
     "title": "OPTI-WOMEN",
     "description": "Multivitamin for active women",
-    "image": "/images/2.jpg"
+    "image": "/images/2.jpg",
+    "price": 22
   },
   {
     "id": 3,
     "title": "ZMA",
     "description": "Vitamin & mineral for active adults",
-    "image": "/images/3.jpg"
+    "image": "/images/3.jpg",
+    "price": 18
   },
   {
     "id": 4,
     "title": "VITA-WOMEN",
     "description": "Advanced performance for beauty health",
-    "image": "/images/4.jpg"
+    "image": "/images/4.jpg",
+    "price": 25
   },
   {
     "id": 5,
     "title": "MAX-MOTION",
     "description": "Vitamin-mineral drink",
-    "image": "/images/5.jpg"
+    "image": "/images/5.jpg",
+    "price": 28
   },
   {
     "id": 6,
     "title": "GOLDEN-WHEY",
     "description": "Pure whey protein",
-    "image": "/images/6.jpg"
+    "image": "/images/6.jpg",
+    "price": 35
   },
   {
     "id": 7,
     "title": "GOLD-STANDARD WHEY",
     "description": "Pure whey protein",
-    "image": "/images/7.jpg"
+    "image": "/images/7.jpg",
+    "price": 38
   },
   {
     "id": 8,
     "title": "SYNTHA-6",
     "description": "Ultra premium protein matrix",
-    "image": "/images/8.jpg"
+    "image": "/images/8.jpg",
+    "price": 40
   },
   {
     "id": 9,
     "title": "GOLD-STANDARD CASEIN",
     "description": "Protein powder drink mix",
-    "image": "/images/9.jpg"
+    "image": "/images/9.jpg",
+    "price": 42
   },
   {
     "id": 10,
     "title": "WHEY MUTANT",
     "description": "Gourmet whey protein isolate shake",
-    "image": "/images/10.jpg"
+    "image": "/images/10.jpg",
+    "price": 45
   },
   {
     "id": 11,
     "title": "RULE 1",
     "description": "R1 WHEY BLEND",
-    "image": "/images/11.jpg"
+    "image": "/images/11.jpg",
+    "price": 30
   },
   {
     "id": 12,
     "title": "RULE 1",
     "description": "R1 CASEIN",
-    "image": "/images/12.jpg"
+    "image": "/images/12.jpg",
+    "price": 32
   },
   {
     "id": 13,
     "title": "RULE 1",
     "description": "R1 PROTEIN",
-    "image": "/images/13.jpg"
+    "image": "/images/13.jpg",
+    "price": 34
   },
   {
     "id": 14,
     "title": "BioTechUSA",
     "description": "PROTEIN DRINK POWDER WITH GLUTAMINE",
-    "image": "/images/14.jpg"
+    "image": "/images/14.jpg",
+    "price": 36
   },
   {
     "id": 15,
     "title": "Nutrend",
     "description": "NUTREND MICELLAR CASEIN",
-    "image": "/images/15.jpg"
+    "image": "/images/15.jpg",
+    "price": 38
   },
   {
     "id": 16,
     "title": "BioTechUSA",
     "description": "HYPER MASS",
-    "image": "/images/16.jpg"
+    "image": "/images/16.jpg",
+    "price": 40
   }
 ]

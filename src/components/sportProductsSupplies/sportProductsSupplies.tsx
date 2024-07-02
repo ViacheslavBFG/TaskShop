@@ -12,6 +12,7 @@ interface Product {
   title: string;
   description: string;
   image: string;
+  price: number;
 }
 
 interface ModalProduct {
@@ -66,7 +67,26 @@ const SportProductsSupplies = () => {
                   />
                 }
               >
-                <Meta title={product.title} description={product.description} />
+                <Meta
+                  title={product.title}
+                  description={
+                    <>
+                      <p>{product.description}</p>
+                      <div className="flex items-center text-center  justify-between">
+                        <p className=" mt-2 border-2 w-fit p-2 rounded-md border-blue-500 font-semibold text-lg text-black ">
+                          Price: {product.price}$
+                        </p>
+                        <Button className="p-5 mr-2">
+                          <img
+                            className="w-7 h-7"
+                            src="/images/cart.png"
+                            alt=""
+                          />
+                        </Button>
+                      </div>
+                    </>
+                  }
+                />
               </Card>
             </Col>
           ))}
