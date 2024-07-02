@@ -4,6 +4,7 @@ import { Card, Col, Row, Modal, Button } from "antd";
 import productsBase from "@/components/productsBase.json";
 import productsBaseModal from "@/components/productsBaseModal.json";
 import Searching from "../searching/searching";
+import Link from "next/link";
 
 const { Meta } = Card;
 
@@ -49,6 +50,20 @@ const SportProductsSupplies = () => {
     setIsModalVisible(false);
   };
 
+  const handleAddToCart = (productId: number) => {
+    const selectedProduct = products.find(
+      (product) => product.id === productId
+    );
+    let cartItems: Product[] = JSON.parse(
+      localStorage.getItem("cartItems") || "[]"
+    );
+
+    if (selectedProduct) {
+      cartItems.push(selectedProduct);
+      localStorage.setItem("cartItems", JSON.stringify(cartItems));
+    }
+  };
+
   return (
     <>
       <Searching />
@@ -76,7 +91,10 @@ const SportProductsSupplies = () => {
                         <p className=" mt-2 border-2 w-fit p-2 rounded-md border-blue-500 font-semibold text-lg text-black ">
                           Price: {product.price}$
                         </p>
-                        <Button className="p-5 mr-2">
+                        <Button
+                          className="p-5 mr-2"
+                          onClick={() => handleAddToCart(product.id)}
+                        >
                           <img
                             className="w-7 h-7"
                             src="/images/cart.png"
@@ -106,9 +124,12 @@ const SportProductsSupplies = () => {
                 className=" w-48"
                 key="buy"
                 type="primary"
-                onClick={handleCancel}
+                onClick={() => {
+                  handleAddToCart(modalData.id);
+                  handleCancel();
+                }}
               >
-                Buy
+                Add to cart
               </Button>,
             ]}
           >
