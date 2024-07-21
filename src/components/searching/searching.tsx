@@ -1,11 +1,18 @@
-import { Button, Input } from "antd";
+import { Input } from "antd";
 import React from "react";
 
-const Searching = () => {
+interface SearchingProps {
+  setSearchValue: (value: string) => void;
+}
+
+const Searching: React.FC<SearchingProps> = ({ setSearchValue }) => {
   return (
     <div className="flex items-center gap-2 ml-auto w-72 pr-5">
-      <Input className=" border-2" placeholder="Find product" />
-      <Button className=" border-2">search</Button>
+      <Input
+        className="border-2"
+        placeholder="Find product"
+        onChange={(event) => setSearchValue(event.target.value)}
+      />
     </div>
   );
 };

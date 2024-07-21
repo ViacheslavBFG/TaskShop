@@ -27,12 +27,27 @@ interface ModalProduct {
 
 const SportProductsSupplies = () => {
   const [products, setProducts] = useState<Product[]>([]);
+  const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
   const [modalData, setModalData] = useState<ModalProduct | null>(null);
   const [isModalVisible, setIsModalVisible] = useState(false);
+  const [searchValue, setSearchValue] = useState("");
 
   useEffect(() => {
     setProducts(productsBase);
+    setFilteredProducts(productsBase);
   }, []);
+
+  useEffect(() => {
+    if (searchValue) {
+      setFilteredProducts(
+        products.filter((product) =>
+          product.title.toLowerCase().includes(searchValue.toLowerCase())
+        )
+      );
+    } else {
+      setFilteredProducts(products);
+    }
+  }, [searchValue, products]);
 
   const showModal = (productId: number) => {
     const product = productsBaseModal.find((p) => p.id === productId);
@@ -66,10 +81,10 @@ const SportProductsSupplies = () => {
 
   return (
     <>
-      <Searching />
+      <Searching setSearchValue={setSearchValue} />
       <div className="container mx-auto p-4">
         <Row gutter={[16, 16]}>
-          {products.map((product) => (
+          {filteredProducts.map((product) => (
             <Col key={product.id} xs={24} sm={12} md={8} lg={6}>
               <Card
                 hoverable
@@ -77,7 +92,7 @@ const SportProductsSupplies = () => {
                   <img
                     alt={product.title}
                     src={product.image}
-                    className="w-full  object-cover"
+                    className="w-full object-cover"
                     onClick={() => showModal(product.id)}
                   />
                 }
@@ -87,8 +102,8 @@ const SportProductsSupplies = () => {
                   description={
                     <>
                       <p>{product.description}</p>
-                      <div className="flex items-center text-center  justify-between">
-                        <p className=" mt-2 border-2 w-fit p-2 rounded-md border-blue-500 font-semibold text-lg text-black ">
+                      <div className="flex items-center text-center justify-between">
+                        <p className="mt-2 border-2 w-fit p-2 rounded-md border-blue-500 font-semibold text-lg text-black">
                           Price: {product.price}$
                         </p>
                         <Button
@@ -121,7 +136,7 @@ const SportProductsSupplies = () => {
                 Cancel
               </Button>,
               <Button
-                className=" w-48"
+                className="w-48"
                 key="buy"
                 type="primary"
                 onClick={() => {
@@ -136,14 +151,14 @@ const SportProductsSupplies = () => {
             <img
               src={modalData.image}
               alt={modalData.title}
-              className="w-24 h-54 object-cover float-left mb-4 "
+              className="w-24 h-54 object-cover float-left mb-4"
             />
-            <p className=" font-semibold">{modalData.description}</p>
+            <p className="font-semibold">{modalData.description}</p>
             <p>
-              <span className=" font-semibold">Description: </span>{" "}
+              <span className="font-semibold">Description: </span>
               {modalData.details}
             </p>
-            <p className=" mt-2 border-2 w-fit p-2 rounded-md border-blue-500 font-semibold text-lg ">
+            <p className="mt-2 border-2 w-fit p-2 rounded-md border-blue-500 font-semibold text-lg">
               Price: {modalData.price}$
             </p>
           </Modal>
